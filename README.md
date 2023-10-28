@@ -1,3 +1,63 @@
+
+
+Project Description:
+This project is a web application built using React and a variety of popular libraries and technologies. It combines the power of React with Material UI for a sleek user interface, React-Redux for state management, ReactAvatar-edit for avatar customization, React-Router-Dom for navigation, and more.
+
+
+
+## Introduction
+* Resume-builder is a web application where anyone can create resume with ease and choose from different available templates.
+* It has three tabs : 1) Resume Templates (Home Page) , 2) My Resume, 3) About us
+* Before downloading we have a preview option to view your resume.
+* You can download resumes to the local hard drive.
+
+
+Features:
+React-Router-Dom: Efficient and dynamic routing for the application.
+Material UI: A modern and responsive user interface using Material Design components.
+React-Redux: Centralized state management for easy data sharing and updates.
+ReactAvatar-edit: Customize avatars for user profiles.
+Vanilla CSS: Custom styles to tailor the user interface to your preferences.
+JSX: JavaScript XML for creating UI components.
+React-Hook-Forms: Simplify form handling using hooks in React.
+Jspdf Converter: Generate PDF files directly from your web application.
+Redux: Manage and share state globally across your application.
+Images: Utilize images in various parts of the application for a rich visual experience.
+
+Installation
+1.Clone the repository:
+git clone https://github.com/yourusername/your-project.git
+2.Change directory to the project folder:
+cd your-project
+3.Install the required dependencies:
+npm install
+4.Start the development server:
+npm start
+5.Access the application in your browser at http://localhost:3000.
+
+## Pages
+* Home (Resume Templates) -Choose one from the available templates ;
+ <br/> -Navigated to details filling page
+* My Resume - From where you can see your resume before downloading 
+* About us
+
+Contributing:
+If you would like to contribute to this project, please follow these steps:
+
+1.Fork the repository.
+2.Create a new branch for your feature or bug fix:
+git checkout -b feature-name
+3.Commit your changes and push to your fork:
+git commit -m "Add feature or fix"
+git push origin feature-name
+4.Create a pull request on the original repository.
+
+Contact
+If you have any questions or need further assistance, please contact [gulamquadir500@gmail.com].
+
+Enjoy working with this React project, and feel free to customize it to your specific needs! We welcome your contributions and hope it serves as a valuable resource for your web development endeavors.
+
+Project Structure:
 # Resume-Builder (AlmaBetter__Capstone__Project)
 
 ├── public/
@@ -72,35 +132,3 @@
 │
 └── store/
     └── store.js
-
-
-
-
-
-## Introduction
-* Resume@builder is a web application where anyone can create resume with ease and choose from different available templates.
-* It has two tabs : 1) Resume Templates (Home Page) , 2) About us 
-* Before downloading we have a preview option to view your resume.
-* You can download resumes to the local hard drive.
-
-
-## Used in this project:
-* React-Router-Dom
-* Material UI
-* React-Redux
-* Store
-* React-Avatar-edit
-* Vanilla CSS
-* JSX
-* React-Hook-Forms
-* Jspdf converter
-* Redux 
-* Images
-
-
-## Pages
-* Home (Resume Templates) <br/> -Choose one from the available templates ;
- <br/> -Navigated to details filling page 
-* About us
-
-
