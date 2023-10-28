@@ -13,27 +13,27 @@ This project is a web application built using React and a variety of popular lib
 
 
 Features:
-React-Router-Dom: Efficient and dynamic routing for the application.
-Material UI: A modern and responsive user interface using Material Design components.
-React-Redux: Centralized state management for easy data sharing and updates.
-ReactAvatar-edit: Customize avatars for user profiles.
-Vanilla CSS: Custom styles to tailor the user interface to your preferences.
-JSX: JavaScript XML for creating UI components.
-React-Hook-Forms: Simplify form handling using hooks in React.
-Jspdf Converter: Generate PDF files directly from your web application.
-Redux: Manage and share state globally across your application.
-Images: Utilize images in various parts of the application for a rich visual experience.
+* React-Router-Dom: Efficient and dynamic routing for the application. <br/>
+* Material UI: A modern and responsive user interface using Material Design components. <br/>
+* React-Redux: Centralized state management for easy data sharing and updates. <br/>
+* ReactAvatar-edit: Customize avatars for user profiles. <br/>
+* Vanilla CSS: Custom styles to tailor the user interface to your preferences. <br/>
+* JSX: JavaScript XML for creating UI components. <br/>
+* React-Hook-Forms: Simplify form handling using hooks in React. <br/>
+* Jspdf Converter: Generate PDF files directly from your web application. <br/>
+* Redux: Manage and share state globally across your application. <br/>
+* Images: Utilize images in various parts of the application for a rich visual experience. <br/>
 
 Installation
-1.Clone the repository:
-git clone https://github.com/yourusername/your-project.git
-2.Change directory to the project folder:
-cd your-project
-3.Install the required dependencies:
-npm install
-4.Start the development server:
-npm start
-5.Access the application in your browser at http://localhost:3000.
+1.Clone the repository:<br/>
+git clone https://github.com/yourusername/your-project.git<br/>
+2.Change directory to the project folder:<br/>
+cd your-project<br/>
+3.Install the required dependencies:<br/>
+npm install<br/>
+4.Start the development server:<br/>
+npm start<br/>
+5.Access the application in your browser at http://localhost:3000.<br/>
 
 ## Pages
 * Home (Resume Templates) -Choose one from the available templates ;
@@ -41,21 +41,21 @@ npm start
 * My Resume - From where you can see your resume before downloading 
 * About us
 
-Contributing:
-If you would like to contribute to this project, please follow these steps:
+Contributing:<br/>
+If you would like to contribute to this project, please follow these steps:<br/>
 
-1.Fork the repository.
-2.Create a new branch for your feature or bug fix:
-git checkout -b feature-name
-3.Commit your changes and push to your fork:
-git commit -m "Add feature or fix"
-git push origin feature-name
-4.Create a pull request on the original repository.
+1.Fork the repository.<br/>
+2.Create a new branch for your feature or bug fix:<br/>
+git checkout -b feature-name<br/>
+3.Commit your changes and push to your fork:<br/>
+git commit -m "Add feature or fix"<br/>
+git push origin feature-name<br/>
+4.Create a pull request on the original repository.<br/>
 
-Contact
-If you have any questions or need further assistance, please contact [gulamquadir500@gmail.com].
+Contact<br/>
+If you have any questions or need further assistance, please contact [gulamquadir500@gmail.com].<br/>
 
-Enjoy working with this React project, and feel free to customize it to your specific needs! We welcome your contributions and hope it serves as a valuable resource for your web development endeavors.
+Enjoy working with this React project, and feel free to customize it to your specific needs! We welcome your contributions and hope it serves as a valuable resource for your web development endeavors.<br/>
 
 Project Structure:
 # Resume-Builder (AlmaBetter__Capstone__Project)
