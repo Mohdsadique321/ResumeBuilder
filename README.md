@@ -1,18 +1,18 @@
 
 
-## Project Description:<br/>
+# Project Description:
 This project is a web application built using React and a variety of popular libraries and technologies. It combines the power of React with Material UI for a sleek user interface, React-Redux for state management, ReactAvatar-edit for avatar customization, React-Router-Dom for navigation, and more.
 
 
 
-## Introduction
+# Introduction
 * Resume-builder is a web application where anyone can create resume with ease and choose from different available templates.
 * It has three tabs : 1) Resume Templates (Home Page) , 2) My Resume, 3) About us
 * Before downloading we have a preview option to view your resume.
 * You can download resumes to the local hard drive.
 
 
-## Features:<br/>
+# Features:
 * React-Router-Dom: Efficient and dynamic routing for the application. <br/>
 * Material UI: A modern and responsive user interface using Material Design components. <br/>
 * React-Redux: Centralized state management for easy data sharing and updates. <br/>
@@ -24,7 +24,7 @@ This project is a web application built using React and a variety of popular lib
 * Redux: Manage and share state globally across your application. <br/>
 * Images: Utilize images in various parts of the application for a rich visual experience. <br/>
 
-## Installation:<br/>
+# Installation:
 1.Clone the repository:<br/>
 git clone https://github.com/yourusername/your-project.git<br/>
 2.Change directory to the project folder:<br/>
@@ -41,7 +41,7 @@ npm start<br/>
 * My Resume - From where you can see your resume before downloading 
 * About us
 
-## Contributing:<br/>
+# Contributing:
 If you would like to contribute to this project, please follow these steps:<br/>
 
 1.Fork the repository.<br/>
@@ -52,7 +52,7 @@ git commit -m "Add feature or fix"<br/>
 git push origin feature-name<br/>
 4.Create a pull request on the original repository.<br/>
 
-## Contact<br/>
+# Contact
 If you have any questions or need further assistance, please contact [gulamquadir500@gmail.com].<br/>
 
 Enjoy working with this React project, and feel free to customize it to your specific needs! We welcome your contributions and hope it serves as a valuable resource for your web development endeavors.<br/>
