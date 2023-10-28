@@ -14,9 +14,9 @@ import Grid from '@mui/material/Grid';
 import { Typography } from '@mui/material';
 import "./mytemplate.css"
 import { Link } from 'react-router-dom';
-import Stack from '@mui/material/Stack';
+// import Stack from '@mui/material/Stack';
 import { T1, T2, T3, T4 } from "../../state/action";
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 
 

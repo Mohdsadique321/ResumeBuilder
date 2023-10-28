@@ -1,6 +1,6 @@
 import React from 'react'
-import { useForm, FormProvider, useFormContext } from "react-hook-form"
-import { useDispatch, useSelector } from "react-redux"
+import { useForm, FormProvider } from "react-hook-form"
+import { useDispatch } from "react-redux"
 import Stack from '@mui/material/Stack';
 import Personal_Info from "./personal_info"
 import { updateinfo } from "../../state/action"
@@ -15,15 +15,14 @@ import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import { useNavigate } from 'react-router-dom'
-import { Preview } from '@mui/icons-material';
 
 // As soon as details are filled for particular categories/sections browser moves further to next fields if ! then same field on same page
 
 function Detail() {
     const method = useForm()
     const navigate = useNavigate()
-    const { formState: { errors } } = useForm();
-    let input = useSelector(state => state.updateinfos)
+    const { formState: { error } } = useForm();
+    // let input = useSelector(state => state.updateinfos)
     //dispacting data to store
     const dispatch = useDispatch()
     let onSubmit = (data) => {
@@ -83,10 +82,10 @@ function Detail() {
 
 
                         >
-                            <Tab style={{ alignItems: 'flex-start' }} label="Personal Info" disabled={(value == 0) ? false : true} />
-                            <Tab style={{ alignItems: 'flex-start' }} label="Work Experience" disabled={(value == 1) ? false : true} />
-                            <Tab style={{ alignItems: 'flex-start' }} label="Education" disabled={(value == 2) ? false : true} />
-                            <Tab style={{ alignItems: 'flex-start' }} label="Key Skills" disabled={(value == 3) ? false : true} />
+                            <Tab style={{ alignItems: 'flex-start' }} label="Personal Info" disabled={(value === 0) ? false : true} />
+                            <Tab style={{ alignItems: 'flex-start' }} label="Work Experience" disabled={(value === 1) ? false : true} />
+                            <Tab style={{ alignItems: 'flex-start' }} label="Education" disabled={(value === 2) ? false : true} />
+                            <Tab style={{ alignItems: 'flex-start' }} label="Key Skills" disabled={(value === 3) ? false : true} />
                         </Tabs>
 
                     </Item>
@@ -101,10 +100,10 @@ function Detail() {
                 {console.log(value, "this is value")}
                 <FormProvider {...method}>
                     <form onSubmit={method.handleSubmit(onSubmit)} >
-                        {value == 0 && (<Personal_Info />)}
-                        {value == 1 && (<Work_info />)}
-                        {value == 2 && (<Education />)}
-                        {value == 3 && (<KeySkills />)}
+                        {value === 0 && (<Personal_Info />)}
+                        {value === 1 && (<Work_info />)}
+                        {value === 2 && (<Education />)}
+                        {value === 3 && (<KeySkills />)}
 
 
                         <Grid container spacing={2} >
@@ -112,7 +111,7 @@ function Detail() {
                                 <Button variant="outlined" onClick={() => { (value >= 1) && setValue(value - 1) }}>Back</Button>
                                 {(value < 3) && <Button variant="contained" onClick={method.handleSubmit(() => { (value <= 2) && setValue(value + 1) })}>Next</Button>}
                                 {/* {(value < 4) && <Button variant="contained" onClick={method.handleSubmit(() => { (value <= 3) && setValue(value + 1) })}>Next</Button>} */}
-                                <Grid xs={4}>{value == 3 && (<Button variant="contained" type="submit" >Preview</Button>)}</Grid>
+                                <Grid xs={4}>{value === 3 && (<Button variant="contained" type="submit" >Preview</Button>)}</Grid>
                             </Stack>
                         </Grid>
                     </form>
