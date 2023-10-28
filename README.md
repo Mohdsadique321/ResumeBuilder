@@ -1,6 +1,6 @@
 
 
-Project Description:
+## Project Description:<br/>
 This project is a web application built using React and a variety of popular libraries and technologies. It combines the power of React with Material UI for a sleek user interface, React-Redux for state management, ReactAvatar-edit for avatar customization, React-Router-Dom for navigation, and more.
 
 
@@ -12,7 +12,7 @@ This project is a web application built using React and a variety of popular lib
 * You can download resumes to the local hard drive.
 
 
-Features:
+## Features:<br/>
 * React-Router-Dom: Efficient and dynamic routing for the application. <br/>
 * Material UI: A modern and responsive user interface using Material Design components. <br/>
 * React-Redux: Centralized state management for easy data sharing and updates. <br/>
@@ -24,7 +24,7 @@ Features:
 * Redux: Manage and share state globally across your application. <br/>
 * Images: Utilize images in various parts of the application for a rich visual experience. <br/>
 
-Installation
+## Installation:<br/>
 1.Clone the repository:<br/>
 git clone https://github.com/yourusername/your-project.git<br/>
 2.Change directory to the project folder:<br/>
@@ -41,7 +41,7 @@ npm start<br/>
 * My Resume - From where you can see your resume before downloading 
 * About us
 
-Contributing:<br/>
+## Contributing:<br/>
 If you would like to contribute to this project, please follow these steps:<br/>
 
 1.Fork the repository.<br/>
@@ -52,83 +52,83 @@ git commit -m "Add feature or fix"<br/>
 git push origin feature-name<br/>
 4.Create a pull request on the original repository.<br/>
 
-Contact<br/>
+## Contact<br/>
 If you have any questions or need further assistance, please contact [gulamquadir500@gmail.com].<br/>
 
 Enjoy working with this React project, and feel free to customize it to your specific needs! We welcome your contributions and hope it serves as a valuable resource for your web development endeavors.<br/>
 
-Project Structure:
+# Project Structure:
 # Resume-Builder (AlmaBetter__Capstone__Project)
 
-├── public/
-│   ├── favicon.ico
-│   ├── index.html
-│   ├── logo192.png
-│   ├── logo512.png
-│   ├── manifest.json
-│   └── robots.txt
-│
-├── src/
-│   ├── App.js
-│   ├── index.css
-│   ├── index.js
-│   │
-│   └── Components/
-│       ├── about_us_page/
-│       │   └── aboutus.jsx
-│       │
-│       ├── detail_filling_page/
-│       │   ├── navtabs/
-│       │   │   └── navtabs.jsx
-│       │   ├── detail.jsx
-│       │   ├── education.jsx
-│       │   ├── keyskills.jsx
-│       │   ├── personal_info.jsx
-│       │   └── workexperience.jsx
-│       │
-│       ├── homepage/
-│       │   ├── my_templates.jsx
-│       │   ├── mytamplate.css
-│       │   ├── template1.jsx
-│       │   ├── template2.jsx
-│       │   ├── template3.jsx
-│       │   └── template4.jsx
-│       │
-│       ├── preview_page/
-│       │   ├── preview.jsx
-│       │   └── preview.css
-│       │
-│       ├── images/
-│       │   ├── aboutCv.jpg
-│       │   ├── T1.png
-│       │   ├── T2.png
-│       │   ├── T3.png
-│       │   └── T4.png
-│       │
-│       ├── navbar/
-│       │   └── navbar.jsx
-│       │
-│       ├── PersonalInfo/
-│       │   ├── PersonalInfoComponent.css
-│       │   └── PersonalInfoComponent.js
-│       │
-│       └── Preview/
-│           ├── PreviewComponent.css
-│           └── PreviewComponent.js
-│
-├── constant/
-│   └── actiontype.js
-│
-├── state/
-│   ├── action/
-│   ├── action.js
-│   ├── index.js
-│   └── Sel_Template.js
-│
-├── reducer/
-│   ├── index.js
-│   ├── Sel_Template.js
-│   └── updateinforeducer.js
-│
-└── store/
-    └── store.js
+├── public/<br/>
+│   ├── favicon.ico<br/>
+│   ├── index.html<br/>
+│   ├── logo192.png<br/>
+│   ├── logo512.png<br/>
+│   ├── manifest.json<br/>
+│   └── robots.txt<br/>
+│<br/>
+├── src/<br/>
+│   ├── App.js<br/>
+│   ├── index.css<br/>
+│   ├── index.js<br/>
+│   │<br/>
+│   └── Components/<br/>
+│       ├── about_us_page/<br/>
+│       │   └── aboutus.jsx<br/>
+│       │<br/>
+│       ├── detail_filling_page/<br/>
+│       │   ├── navtabs/<br/>
+│       │   │   └── navtabs.jsx<br/>
+│       │   ├── detail.jsx<br/>
+│       │   ├── education.jsx<br/>
+│       │   ├── keyskills.jsx<br/>
+│       │   ├── personal_info.jsx<br/>
+│       │   └── workexperience.jsx<br/>
+│       │<br/>
+│       ├── homepage/<br/>
+│       │   ├── my_templates.jsx<br/>
+│       │   ├── mytamplate.css<br/>
+│       │   ├── template1.jsx<br/>
+│       │   ├── template2.jsx<br/>
+│       │   ├── template3.jsx<br/>
+│       │   └── template4.jsx<br/>
+│       │<br/>
+│       ├── preview_page/<br/>
+│       │   ├── preview.jsx<br/>
+│       │   └── preview.css<br/>
+│       │<br/>
+│       ├── images/<br/>
+│       │   ├── aboutCv.jpg<br/>
+│       │   ├── T1.png<br/>
+│       │   ├── T2.png<br/>
+│       │   ├── T3.png<br/>
+│       │   └── T4.png<br/>
+│       │<br/>
+│       ├── navbar/<br/>
+│       │   └── navbar.jsx<br/>
+│       │<br/>
+│       ├── PersonalInfo/<br/>
+│       │   ├── PersonalInfoComponent.css<br/>
+│       │   └── PersonalInfoComponent.js<br/>
+│       │<br/>
+│       └── Preview/<br/>
+│           ├── PreviewComponent.css<br/>
+│           └── PreviewComponent.js<br/>
+│<br/>
+├── constant/<br/>
+│   └── actiontype.js<br/>
+│<br/>
+├── state/<br/>
+│   ├── action/<br/>
+│   ├── action.js<br/>
+│   ├── index.js<br/>
+│   └── Sel_Template.js<br/>
+│<br/>
+├── reducer/<br/>
+│   ├── index.js<br/>
+│   ├── Sel_Template.js<br/>
+│   └── updateinforeducer.js<br/>
+│<br/>
+└── store/<br/>
+    └── store.js<br/>
