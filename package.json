@@ -1,8 +1,7 @@
 {
-  "name": "react-resume-builder",
+  "name": "resume-builder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://GulamQuadir500.github.io/react-resume-builder",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
