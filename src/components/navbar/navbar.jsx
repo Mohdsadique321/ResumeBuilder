@@ -14,7 +14,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import logo from "../image/almaLogo.png"
+
 
 const drawerWidth = 240;
 
@@ -86,12 +88,15 @@ function DrawerAppBar(props) {
       <AppBar component="nav" color="inherit" position='fixed' >
 
         <Toolbar>
-          <Typography
-            variant="h5"
-            align='left'
-            sx={{ flexGrow: 1, display: { sm: 'block' } }}
-          >
-            RESUME BUILDER
+          <Typography variant="h5" sx={{ my: 2, flexGrow: 1}}>
+            <NavLink to="/">
+              {" "}
+              <img
+                src={logo}
+                height="40px"
+                alt="logoapp"
+              />
+            </NavLink>
           </Typography>
 
           <IconButton
