@@ -9,12 +9,8 @@ import CallIcon from '@mui/icons-material/Call';
 import HomeIcon from '@mui/icons-material/Home';
 import FlagCircleIcon from '@mui/icons-material/FlagCircle';
 import SchoolIcon from '@mui/icons-material/School';
-
 import WorkIcon from '@mui/icons-material/Work';
 import KeyIcon from '@mui/icons-material/Key';
-
-
-
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -31,8 +27,6 @@ function Template3(prop) {
   let skill = prop.input.KeySkills
     ;
   console.log("skill is ", skill)
-
-
 
 
   return (
@@ -53,10 +47,7 @@ function Template3(prop) {
           <Grid xs={6}>  <HomeIcon /><Typography variant='h6' >{prop.input.Address}</Typography></Grid>
           <Grid xs={6} > <EmailIcon /><Typography variant='h6'>{prop.input.Email}</Typography></Grid>
 
-
-
         </Grid>
-
 
         {/* headers end    */}
 
@@ -101,8 +92,6 @@ function Template3(prop) {
                ${exp.End_Date}`}</Typography> </Item></div>
                 ))}
 
-
-
             </Grid>
             {/* work info Ends */}
             {/* education info starts */}
@@ -136,11 +125,6 @@ function Template3(prop) {
                ${edu.End_year}`}</Typography></Item> </div>
                 ))}
 
-
-
-
-
-
             </Grid>
             {/* education info Ends */}
             {/* Key info info starts */}
@@ -163,10 +147,6 @@ function Template3(prop) {
 
           </Grid>
         </Box>
-
-
-
-
 
       </Paper></div>
   )

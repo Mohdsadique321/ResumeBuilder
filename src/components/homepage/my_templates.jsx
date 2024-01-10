@@ -1,11 +1,8 @@
-
 import DrawerAppBar from '../navbar/navbar';
 import Te1 from "../image/T1.png"
 import Te2 from "../image/T2.png"
 import Te3 from "../image/T3.png"
 import Te4 from "../image/T4.png"
-
-
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -17,13 +14,6 @@ import { Link } from 'react-router-dom';
 // import Stack from '@mui/material/Stack';
 import { T1, T2, T3, T4 } from "../../state/action";
 import { useDispatch } from 'react-redux';
-
-
-
-
-
-
-
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : "whitesmoke",
@@ -42,7 +32,6 @@ function Mytemplates() {
   return (<>
 
     <DrawerAppBar />
-
 
     <Box sx={{ flexGrow: 1, m: 3 }}  >
 
@@ -69,10 +58,6 @@ function Mytemplates() {
 
     </Box>
 
-
-
   </>)
 }
 export default Mytemplates;
-
-

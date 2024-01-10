@@ -46,22 +46,11 @@ function Detail() {
 
     const [value, setValue] = React.useState(0);
 
-
     const handleChange = (event, newValue) => {
-
-
-
         setValue(newValue);
     };
 
-
-
-
     return (<>
-
-
-
-
         <DrawerAppBar />
 
         <Grid container spacing={2} >
@@ -78,22 +67,13 @@ function Detail() {
                             scrollButtons={false}
                             aria-label="scrollable prevent tabs example"
                             orientation="vertical"
-
-
-
                         >
                             <Tab style={{ alignItems: 'flex-start' }} label="Personal Info" disabled={(value === 0) ? false : true} />
                             <Tab style={{ alignItems: 'flex-start' }} label="Work Experience" disabled={(value === 1) ? false : true} />
                             <Tab style={{ alignItems: 'flex-start' }} label="Education" disabled={(value === 2) ? false : true} />
                             <Tab style={{ alignItems: 'flex-start' }} label="Key Skills" disabled={(value === 3) ? false : true} />
                         </Tabs>
-
                     </Item>
-
-
-
-
-
                 </Grid>
             </Grid>
             <Grid item xs={10} >
@@ -119,13 +99,9 @@ function Detail() {
 
             </Grid>
         </Grid>
-
-
-
     </>
 
     )
 
 }
 export default Detail;
-

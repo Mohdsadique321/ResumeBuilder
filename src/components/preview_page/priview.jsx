@@ -10,13 +10,8 @@ import Template3 from "../homepage/template3";
 import Template4 from "../homepage/template4";
 import jsPDF from "jspdf";
 import "../preview_page/preview.css"
-
-
 import html2canvas from 'html2canvas';
 import { TEMPLATE_1, TEMPLATE_2, TEMPLATE_3, TEMPLATE_4 } from "../../constant/actiontype";
-
-
-
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : "#fff",
@@ -25,8 +20,6 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
-
-
 
 function Previewpage() {
   let input = useSelector(state => state.updateinfos)
@@ -48,8 +41,6 @@ function Previewpage() {
     else if (Template === TEMPLATE_4) {
       element = document.getElementById("Temp4");
     }
-
-
 
     // Convert the JSX template to a canvas using html2canvas
     html2canvas(element).then(canvas => {
@@ -98,17 +89,9 @@ function Previewpage() {
             <Button variant="contained" size="large" onClick={generatePDF} >Download</Button></div>
         </div>
 
-
       </Container>
-
-
     </>
   )
-
-
 }
 
 export default Previewpage;
-
-
-

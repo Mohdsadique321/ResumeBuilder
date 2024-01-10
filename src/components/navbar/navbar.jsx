@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -17,9 +16,7 @@ import Button from '@mui/material/Button';
 import { Link, NavLink } from 'react-router-dom';
 import logo from "../image/almaLogo.png"
 
-
 const drawerWidth = 240;
-
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -154,7 +151,5 @@ function DrawerAppBar(props) {
     </Box>
   );
 }
-
-
 
 export default DrawerAppBar;

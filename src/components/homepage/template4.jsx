@@ -9,11 +9,8 @@ import CallIcon from '@mui/icons-material/Call';
 import HomeIcon from '@mui/icons-material/Home';
 import FlagCircleIcon from '@mui/icons-material/FlagCircle';
 import SchoolIcon from '@mui/icons-material/School';
-
 import WorkIcon from '@mui/icons-material/Work';
 import KeyIcon from '@mui/icons-material/Key';
-
-
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -32,29 +29,19 @@ function Template4(prop) {
     ;
   console.log("skill is ", skill)
 
-
-
-
   return (
     // header starts
     <div style={{ width: '210mm', height: "297mm" }} >
       <Paper id="Temp4" elevation={3}  >
-
 
         <Grid container spacing={2} backgroundColor="#df487f" color="white" borderRadius={2} >
           <Grid xs={6} >
             <Typography ml={1} variant='h3'  >{`${prop.input.First_Name}  ${prop.input.Last_Name}`}</Typography>
 
           </Grid>
-
-
           <Grid xs={6} ><CallIcon /><Typography variant='h6' >{prop.input.Mobile}</Typography></Grid>
-
           <Grid xs={6}>  <HomeIcon /><Typography variant='h6' >{prop.input.Address}</Typography></Grid>
           <Grid xs={6} > <EmailIcon /><Typography variant='h6'>{prop.input.Email}</Typography></Grid>
-
-
-
         </Grid>
 
 
@@ -136,11 +123,6 @@ function Template4(prop) {
                ${edu.End_year}`}</Typography></Item> </div>
                 ))}
 
-
-
-
-
-
             </Grid>
             {/* education info Ends */}
             {/* Key info info starts */}
@@ -163,10 +145,6 @@ function Template4(prop) {
 
           </Grid>
         </Box>
-
-
-
-
 
       </Paper></div>
   )

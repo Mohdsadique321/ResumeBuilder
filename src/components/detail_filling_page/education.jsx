@@ -1,13 +1,10 @@
-
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-
 import Grid from '@mui/material/Grid';
 import { TextField } from '@mui/material';
 import {Typography} from '@mui/material';
 import { useFieldArray, useFormContext } from 'react-hook-form';
-
 
 function AddEducation(props){
 //adding education by mapping
@@ -70,11 +67,7 @@ return(<>
 </>
   
 )
-
-
 }
-
-
  function Education() {
   const { register,formState: { errors }} = useFormContext()
 
@@ -124,11 +117,3 @@ return(<>
   );
 }
 export default  Education;
-
-
-
-
-
-
-
-

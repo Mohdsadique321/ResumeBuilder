@@ -9,12 +9,8 @@ import CallIcon from '@mui/icons-material/Call';
 import HomeIcon from '@mui/icons-material/Home';
 import FlagCircleIcon from '@mui/icons-material/FlagCircle';
 import SchoolIcon from '@mui/icons-material/School';
-
 import WorkIcon from '@mui/icons-material/Work';
 import KeyIcon from '@mui/icons-material/Key';
-
-
-
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -31,8 +27,6 @@ function Template1(prop) {
   let skill = prop.input.KeySkills
     ;
   console.log("skill is ", skill)
-
-
 
 
   return (
@@ -136,11 +130,6 @@ function Template1(prop) {
                ${edu.End_year}`}</Typography></Item> </div>
                 ))}
 
-
-
-
-
-
             </Grid>
             {/* education info Ends */}
             {/* Key info info starts */}
@@ -163,14 +152,8 @@ function Template1(prop) {
 
           </Grid>
         </Box>
-
-
-
-
-
       </Paper></div>
   )
 }
-
 
 export default Template1;

@@ -45,13 +45,14 @@ export default function ButtonMUI() {
               textAlign: "justify",
             }}
           >
-            Resume@Builder is a free web application where you can build your
+            Resume Builder is a free web application where you can build your
             resume instantly. Create a professional resume in minutes with ample
-            of templates available. You can also upload profile avatar to the
-            resumes. Once you have filled the resume fields, you get a preview
+            of templates available. Once you have filled the resume fields, you get a preview
             and download option. Click download to have it to your local hard
             drive. You can update your resumes which you have created earlier
             and delete them too.
+            <br/>
+            Our web application, Resume Builder, is a user-friendly and free tool designed to simplify the resume creation process. With the aim of helping individuals craft professional and compelling resumes effortlessly, our application provides an intuitive interface and a range of customizable templates.
           </Typography>
           <Stack
             sx={{

@@ -1,21 +1,14 @@
 import * as React from 'react';
-
 import Box from '@mui/material/Box';
 import { useFormContext } from 'react-hook-form';
 import Grid from '@mui/material/Grid';
 import { TextField, Typography } from '@mui/material';
 
 
-
-
 function Personal_info() {
 
 
   const { register, formState: { errors } } = useFormContext()
-
-
-
-
 
   return (
     <Box sx={{ flexGrow: 1 }}>
