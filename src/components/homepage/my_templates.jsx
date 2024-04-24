@@ -43,17 +43,17 @@ function Mytemplates() {
           <Item><Link to="/det"><div className='Item'><img id="con" className='Item' onClick={() => { dispatch(T1()) }} src={Te1} alt='Template1' /></div></Link></Item>
         </Grid>
 
-        <Grid item md={3}>
+        {/* <Grid item md={3}>
           <Item><Link to="/det"><div className='Item'><img id="con" onClick={() => { dispatch(T2()) }} className='Item' src={Te2} alt='Template2' /></div></Link></Item>
-        </Grid>
+        </Grid> */}
 
-        <Grid item md={3}>
+        {/* <Grid item md={3}>
           <Item><Link to="/det"><div className='Item'><img id="con" className='Item' onClick={() => { dispatch(T3()) }} src={Te3} alt='Template3' /></div></Link></Item>
-        </Grid>
+        </Grid> */}
 
-        <Grid item md={3}>
+        {/* <Grid item md={3}>
           <Item><Link to="/det"><div className='Item'><img id="con" className='Item' onClick={() => { dispatch(T4()) }} src={Te4} alt='Template4' /></div></Link></Item>
-        </Grid>
+        </Grid> */}
       </Grid>
 
     </Box>

@@ -15,13 +15,14 @@ Vanilla CSS: Custom styles to tailor the user interface to your preferences.
 JSX: JavaScript XML for creating UI components.
 React-Hook-Forms: Simplify form handling using hooks in React.
 Jspdf Converter: Generate PDF files directly from your web application.
-Redux: Manage and share state globally across your application.
+Redux: Manage and sharefs.inotify.max_user_watches=524288
+ state globally across your application.
 Images: Utilize images in various parts of the application for a rich visual experience.
 Installation:
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/your-project.git
+git clone https://github.com/GulamQuadir500/resume-builder.git
 Change directory to the project folder:
 bash
 Copy code
@@ -57,7 +58,7 @@ If you have any questions or need further assistance, please contact [mohdsadiqu
 
 Enjoy working with this React project, and feel free to customize it to your specific needs! We welcome your contributions and hope it serves as a valuable resource for your web development endeavors.
 
-Live Project Link: https://resume-builder002.netlify.app/
+Live Project Link: https://6628cf75db395ba7001aa752--heartfelt-rabanadas-13d894.netlify.app/
 
 Project Structure:
 scss

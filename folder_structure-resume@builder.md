@@ -41,9 +41,7 @@
 │       ├── images/
 │       │   ├── aboutCv.jpg
 │       │   ├── T1.png
-│       │   ├── T2.png
-│       │   ├── T3.png
-│       │   └── T4.png
+│   
 │       │
 │       ├── navbar/
 │       │   └── navbar.jsx
